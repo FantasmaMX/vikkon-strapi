@@ -8,8 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true,
-    "populateCreatorFields": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -36,10 +35,6 @@
         "videos",
         "audios"
       ]
-    },
-    "isActive": {
-      "type": "boolean",
-      "default": true
     },
     "product_features": {
       "type": "relation",

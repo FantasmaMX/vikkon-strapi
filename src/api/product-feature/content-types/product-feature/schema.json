@@ -19,10 +19,6 @@
     "price": {
       "type": "decimal"
     },
-    "isActive": {
-      "type": "boolean",
-      "default": true
-    },
     "product": {
       "type": "relation",
       "relation": "manyToOne",
