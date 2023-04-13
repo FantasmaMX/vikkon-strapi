@@ -8508,6 +8508,11 @@ std-env@^3.0.1:
   resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.2.tgz"
   integrity sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA==
 
+strapi-plugin-oembed@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-oembed/-/strapi-plugin-oembed-1.0.1.tgz#7689dac43e08f8e4a4115f1b54e330d957acb287"
+  integrity sha512-h5w2Jm5nB5ph98TKcp5hLPnPoPR2XvTw/icB4WyLxnuMt8UTh+biOXE6RWlQBq6GUUt3A1tZ019pMGuROgUGIw==
+
 stream-chain@2.2.5, stream-chain@^2.2.5:
   version "2.2.5"
   resolved "https://registry.npmjs.org/stream-chain/-/stream-chain-2.2.5.tgz"

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_tags",
+  "info": {
+    "singularName": "video-tag",
+    "pluralName": "video-tags",
+    "displayName": "VideoTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "videos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::video.video",
+      "mappedBy": "video_tags"
+    }
+  }
+}

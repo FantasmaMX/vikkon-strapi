@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_tags",
+  "info": {
+    "singularName": "document-tag",
+    "pluralName": "document-tags",
+    "displayName": "DocumentTag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "documents": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::document.document",
+      "mappedBy": "document_tags"
+    }
+  }
+}
