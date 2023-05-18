@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "active_models",
+  "info": {
+    "singularName": "active-model",
+    "pluralName": "active-models",
+    "displayName": "ActiveModel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_active_model": {
+      "type": "biginteger",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
