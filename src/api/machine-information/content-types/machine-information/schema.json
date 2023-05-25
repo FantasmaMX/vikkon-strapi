@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "machine_informations",
+  "info": {
+    "singularName": "machine-information",
+    "pluralName": "machine-informations",
+    "displayName": "MachineInformation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "json"
+    },
+    "code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
